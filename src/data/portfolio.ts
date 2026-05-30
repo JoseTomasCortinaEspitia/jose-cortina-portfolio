@@ -4,7 +4,7 @@ export const profile = {
   location: "Medellin, Colombia",
   email: "Joseto.corties@gmail.com",
   github: "https://github.com/JoseTomasCortinaEspitia",
-  linkedin: "www.linkedin.com/in/jose-tomas-cortina-espitia",
+  linkedin: "https://www.linkedin.com/in/jose-tomas-cortina-espitia/",
   cvPath: "/Jose-Cortina-CV.pdf",
 };
 
