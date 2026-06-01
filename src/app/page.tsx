@@ -43,9 +43,20 @@ export default function Home() {
             <h1 className="max-w-4xl text-5xl font-black tracking-tight text-white sm:text-6xl lg:text-7xl">
               Building full stack products with AI, automation and real-world systems.
             </h1>
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-              I am {profile.name}, a developer focused on React, Next.js, Node.js, Python and intelligent automation. I build practical systems that connect APIs, databases, AI agents and user-friendly interfaces.
-            </p>
+            
+            <div className="mt-6 grid items-center gap-6 sm:grid-cols-[auto_1fr]">
+              <img
+                src="/profile.jpg"
+                alt="José Cortina"
+                className="h-64 w-64 rounded-3xl object-cover shadow-xl"
+              />
+
+              <p className="max-w-2xl text-lg leading-8 text-slate-300">
+                I am {profile.name}, a developer focused on React, Next.js, Node.js,
+                Python and intelligent automation. I build practical systems that
+                connect APIs, databases, AI agents and user-friendly interfaces.
+              </p>
+            </div>
 
             <div className="mt-8 flex flex-wrap gap-4">
               <a
